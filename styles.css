@@ -33,6 +33,9 @@ body {
     padding-bottom: 100px;
 }
 
+.header, .oneBody {
+}
+
 a {
     text-decoration: none;
 }
@@ -43,16 +46,19 @@ a {
     height: 60px;
     display: flex;
     align-items: center;
+    
 }
 
 h1 {
     font-size: 22px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin: 0px 20px;
 }
 
 .headerLinks {
     display: flex;
     justify-content: center;
+    margin: 0px 20px;
 }
 
 ul {
@@ -90,6 +96,11 @@ a {
     gap: 12px;
 }
 
+.oneContainer {
+    display: flex;
+    padding: 0px 40px;
+}
+
 .leftOne {
     flex-direction: column;
 }
@@ -105,7 +116,7 @@ a {
 }
 
 img {
-    width: 500px;
+    width: 450px;
 }
 
 .twoBody {
