@@ -1,12 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,900&display=swap");
+
 body {
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .superContainer {
     display: flex;
     flex-direction: column;
+    margin: none;
 }
 
 /*Sets up the background padding for success later*/
@@ -16,8 +20,8 @@ body {
 .threeBody,
 .fourBody,
 .footer {
-    width: 1000px;
-    padding: 0px calc(50% - 500px);
+    width: 950px;
+    padding: 0px calc(50% - 475px);
 }
 
 /*Sets up margins for main content*/
@@ -26,7 +30,11 @@ body {
 .threeBody,
 .fourBody {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -38,7 +46,7 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 22px;
     color: #F9FAF8
 }
 
@@ -65,7 +73,7 @@ a {
 
 .leftOne h2 {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
     color: #f9faf8;
     margin: 0px;
 }
@@ -79,7 +87,7 @@ a {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-
+    gap: 12px;
 }
 
 .leftOne {
@@ -109,7 +117,7 @@ img {
 
 .cards {
     display: flex;
-    gap: 40px;
+    gap: 20px;
     justify-content: center;
 }
 
@@ -117,7 +125,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 140px;
+    width: 180px;
 }
 
 .twoBody img {
@@ -132,4 +140,92 @@ img {
     font-size: 30px;
     margin: 40px;
     margin-top: 0px;
+}
+
+.threeBody{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.qs {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qs .quote {
+    padding-top: 20px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0px;
+    color: #1f2937;
+    font-size: 30px;
+}
+
+.qs .thorSignature {
+    color:#1f2937;
+    text-align: end;
+    font-size: large;
+    font-weight: 700;
+    margin: 10px;
+    flex: none;
+    padding-left: 600px;
+}
+
+.fourBody {
+    color:#F9FAF8;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.callBox {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    width: 830px;
+    align-items: center;   
+    padding: 26px 80px;
+    border-radius: 12px;
+}
+
+.leftCall {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fourBody h3 {
+    margin: 2px;
+    font-weight: 500;
+}
+
+.fourBody p {
+    margin: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #d9d7d7;
+
+}
+
+.callBox button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px #F9FAF8;
+    border-style: solid;
+    padding: 4px 30px;
+    border-radius: 8px;
+}
+
+.footer {
+    height: 80px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
