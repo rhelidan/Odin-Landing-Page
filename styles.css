@@ -185,7 +185,7 @@ img {
 .fourBody {
     background-color: #F9FAF8;
     display: flex;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,7 +221,6 @@ img {
     font-weight: 400;
     font-size: 14px;
     color: #d9d7d7;
-
 }
 
 .callBox button {
