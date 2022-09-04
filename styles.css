@@ -185,8 +185,6 @@ img {
 .fourBody {
     background-color: #F9FAF8;
     display: flex;
-    width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
     align-content: center ;
@@ -195,13 +193,14 @@ img {
 
 .callBox {
     padding: 0px;
+    width: 600px;
     display: flex;
     background-color: #3882f6;
     justify-content: space-between;
     align-items: center;   
     padding: 26px 80px;
     border-radius: 12px;
-    gap: 100px;
+
 }
 
 .leftCall {
